@@ -6,3 +6,4 @@
 // case-sensitive minuscula e maiscula faz diferenca
 //nao podemos redeclarar variaveis com let
 // nao utilizar var, utilizar let
+//nao pode modificar o valor de uma constante
