@@ -1,4 +1,4 @@
-const primeiroNumero = 5;
+const primeiroNumero = '90';
 const segundoNumero = 10;
 const resultado = primeiroNumero * segundoNumero;
 const resultadoDuplicado = resultado * 2;
@@ -9,5 +9,7 @@ console.log (resultadoQuadruplicado);
 console.log (resultadoDuplicado + resultadoDuplicado);
 console.log (resultadoDuplicado + resultadoDuplicado + resultado);
 console.log (resultado * resultadoTriplicado);
-console.log ( resultado / resultadoTriplicado)
+console.log ( resultado / resultadoTriplicado);
+console.log(primeiroNumero + segundoNumero);
+console.log(typeof(primeiroNumero),typeof (resultadoDuplicado));
 
