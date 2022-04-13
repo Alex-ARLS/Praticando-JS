@@ -12,3 +12,5 @@ console.log(imc);
 
 let anoNascimento= 2022 - idade;
 console.log (anoNascimento);
+
+console.log(nome, sobrenome, 'tem', idade, 'anos, pesa', peso, 'tem', alturaEmM, 'de altura e seu IMC is', imc);
