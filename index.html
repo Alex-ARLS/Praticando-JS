@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +11,13 @@
         const nome = prompt('digite seu nome completo: ');
         document.body.innerHTML += `your name is : ${nome} <br />`;
         document.body.innerHTML += `your name has: ${nome.length} lyrics <br />`;
-        document.body.innerHTML +=`the second lyrics of yout name is: ${nome.[1]}<br />`;
-        document.body.innerHTML += `what's your first index off the lyrics A in your name: ${nome.index['a']}<br />`;
-        document.body.innerHTML += `qual is your ultimo indice da letra LETRA A no seu nome: ${nome.lastindex['a']}<br />`;
+        document.body.innerHTML += `the second lyrics of yout name is: ${nome[1]}<br />`;
+        document.body.innerHTML += `what's your first index off the lyrics A in your name: ${nome.indexOf('a')}<br />`;
+        document.body.innerHTML += `qual is your ultimo indice da letra LETRA A no seu nome: ${nome.lastIndexOf('a')}<br />`;
         document.body.innerHTML += `as ultimas 3 palavras do seu nome sao : ${nome.slice(-3, nome.length)}<br />`;
-        document.body.innerHTML += `as palavras do seu nome sao:${nome.split(' ')}<br />`;
-        document.body.innerHTML += `seu nome com letras maiuscula:${nome.toUpperCase}<br />`;
-        document.body.innerHTML += `seu nome com letras minusculas:${nome.toLowerCase}<br />`;
+        document.body.innerHTML += `as palavras do seu nome sao: ${nome.split(' ')}<br />`;
+        document.body.innerHTML += `seu nome com letras maiuscula: ${nome.toUpperCase()}<br />`;
+        document.body.innerHTML += `seu nome com letras minusculas: ${nome.toLowerCase()}<br />`;
     </script>
     
 </body>
