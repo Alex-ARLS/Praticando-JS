@@ -14,7 +14,7 @@ num1 += num2;
 num1 += num2;
 num1 += num2;
 num1 += num2; // 2.0 numero inteiro o que a tofixed number corrige, para nao haver imprecisao, muito importante para software bancarios
-num1 = Number(num1.toFixed(2)); //isso serve pra deixar apenas 2 decimais.
+num1 = Number(num1.toFixed(2)); //isso serve pra deixar apenas 2 decimais eprecisamente .
 console.log(num1);
 console.log(Number.isInteger(num1));
 
