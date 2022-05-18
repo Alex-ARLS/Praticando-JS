@@ -1,1 +1,1 @@
-cosnt num1 = prompt('digite um numero:');
+const numero = prompt('digite um numero:');
