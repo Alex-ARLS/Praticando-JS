@@ -1,0 +1,1 @@
+cosnt num1 = prompt('digite um numero:');
